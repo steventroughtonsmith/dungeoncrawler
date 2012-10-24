@@ -21,7 +21,6 @@
 		B023AA2E15B69D3D00A9A4D9 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B04269F915B5529C00C38F0C /* SDLMain.m */; };
 		B0255008159291B300A97F41 /* ob-mobs.png in Resources */ = {isa = PBXBuildFile; fileRef = B0255007159291B300A97F41 /* ob-mobs.png */; };
 		B025500B159292E000A97F41 /* ob-tilemap.png in Resources */ = {isa = PBXBuildFile; fileRef = B025500A159292E000A97F41 /* ob-tilemap.png */; };
-		B04269F615B5528500C38F0C /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04269F515B5528500C38F0C /* SDL.framework */; };
 		B046D3C9159555B800F67F35 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B046D3C8159555B800F67F35 /* QuartzCore.framework */; };
 		B046D3D01595834300F67F35 /* charactersprites.png in Resources */ = {isa = PBXBuildFile; fileRef = B046D3CF1595834300F67F35 /* charactersprites.png */; };
 		B058FB941592E0B1002D6C4C /* DUCLMob.m in Sources */ = {isa = PBXBuildFile; fileRef = B058FB931592E0B0002D6C4C /* DUCLMob.m */; settings = {COMPILER_FLAGS = ""; }; };
@@ -31,7 +30,6 @@
 		B05D456E15E6B31C00C0768D /* DUCLGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E115FE158F9E0300E63D79 /* DUCLGameView.m */; };
 		B0613D4D158FA5670068325C /* dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = B0613D4C158FA5670068325C /* dirt.png */; };
 		B0613D55158FA93D0068325C /* AStar.c in Sources */ = {isa = PBXBuildFile; fileRef = B0613D53158FA9390068325C /* AStar.c */; settings = {COMPILER_FLAGS = ""; }; };
-		B08C3F3A15B558950058FD1B /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08C3F3915B558950058FD1B /* SDL_image.framework */; };
 		B08CE6511593F90000E9AEBF /* OBLevelGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */; settings = {COMPILER_FLAGS = ""; }; };
 		B08DEF8315AF2AEB0082B72D /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DEF8215AF2AEB0082B72D /* IOSurface.framework */; };
 		B08DEF8415AF2AF80082B72D /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DEF8215AF2AEB0082B72D /* IOSurface.framework */; };
@@ -64,7 +62,6 @@
 		B00A073A15AEC46000C19D7E /* DUCLMapRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLMapRenderView.m; sourceTree = "<group>"; };
 		B0255007159291B300A97F41 /* ob-mobs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ob-mobs.png"; sourceTree = "<group>"; };
 		B025500A159292E000A97F41 /* ob-tilemap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ob-tilemap.png"; sourceTree = "<group>"; };
-		B04269F515B5528500C38F0C /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
 		B04269F815B5529C00C38F0C /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
 		B04269F915B5529C00C38F0C /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
 		B046D3C8159555B800F67F35 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -80,9 +77,6 @@
 		B0613D4C158FA5670068325C /* dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt.png; sourceTree = "<group>"; };
 		B0613D53158FA9390068325C /* AStar.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AStar.c; sourceTree = "<group>"; };
 		B0613D54158FA9390068325C /* AStar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AStar.h; sourceTree = "<group>"; };
-		B08C3F3915B558950058FD1B /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
-		B08C3F4C15B572FC0058FD1B /* DUCLGameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLGameEngine.h; sourceTree = "<group>"; };
-		B08C3F4D15B572FC0058FD1B /* DUCLGameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLGameEngine.m; sourceTree = "<group>"; };
 		B08CE64F1593F90000E9AEBF /* OBLevelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBLevelGenerator.h; sourceTree = "<group>"; };
 		B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OBLevelGenerator.mm; sourceTree = "<group>"; };
 		B08DEF8215AF2AEB0082B72D /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
@@ -131,8 +125,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B08C3F3A15B558950058FD1B /* SDL_image.framework in Frameworks */,
-				B04269F615B5528500C38F0C /* SDL.framework in Frameworks */,
 				B0ED9C4F15B0C093003C29D1 /* IOKit.framework in Frameworks */,
 				B08DEF8415AF2AF80082B72D /* IOSurface.framework in Frameworks */,
 				B00A071515AEB2BA00C19D7E /* GLKit.framework in Frameworks */,
@@ -206,16 +198,10 @@
 		B0E115D1158F9DC700E63D79 = {
 			isa = PBXGroup;
 			children = (
-				B08C3F3915B558950058FD1B /* SDL_image.framework */,
-				B04269F515B5528500C38F0C /* SDL.framework */,
-				B0ED9C4E15B0C093003C29D1 /* IOKit.framework */,
 				B0ED9C3915B0BFB1003C29D1 /* libddhid.a */,
 				B0ED9C3A15B0BFB1003C29D1 /* libdhid */,
-				B08DEF8215AF2AEB0082B72D /* IOSurface.framework */,
 				B00A071715AEB33200C19D7E /* DUCLGLViewController.h */,
 				B00A071815AEB33200C19D7E /* DUCLGLViewController.m */,
-				B00A071415AEB2BA00C19D7E /* GLKit.framework */,
-				B046D3C8159555B800F67F35 /* QuartzCore.framework */,
 				B0E115E6158F9DC700E63D79 /* DungeonCrawler */,
 				B00A072415AEC41E00C19D7E /* MapViewer */,
 				B0E115DF158F9DC700E63D79 /* Frameworks */,
@@ -235,6 +221,10 @@
 		B0E115DF158F9DC700E63D79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0ED9C4E15B0C093003C29D1 /* IOKit.framework */,
+				B08DEF8215AF2AEB0082B72D /* IOSurface.framework */,
+				B00A071415AEB2BA00C19D7E /* GLKit.framework */,
+				B046D3C8159555B800F67F35 /* QuartzCore.framework */,
 				B0E115E0158F9DC700E63D79 /* Cocoa.framework */,
 				B0E115E2158F9DC700E63D79 /* Other Frameworks */,
 			);
@@ -254,16 +244,13 @@
 		B0E115E6158F9DC700E63D79 /* DungeonCrawler */ = {
 			isa = PBXGroup;
 			children = (
-				B0613D53158FA9390068325C /* AStar.c */,
-				B0613D54158FA9390068325C /* AStar.h */,
+				B0FDADC416389C11004DECE1 /* AI/Pathfinding */,
 				B08CE64F1593F90000E9AEBF /* OBLevelGenerator.h */,
 				B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */,
 				B0E115F2158F9DC700E63D79 /* DUCLAppDelegate.h */,
 				B0E115F3158F9DC700E63D79 /* DUCLAppDelegate.m */,
 				B0E115FD158F9E0300E63D79 /* DUCLGameView.h */,
 				B0E115FE158F9E0300E63D79 /* DUCLGameView.m */,
-				B08C3F4C15B572FC0058FD1B /* DUCLGameEngine.h */,
-				B08C3F4D15B572FC0058FD1B /* DUCLGameEngine.m */,
 				B00A071A15AEB90400C19D7E /* NS2DArray.h */,
 				B00A071B15AEB90400C19D7E /* NS2DArray.m */,
 				B058FBA01592E45F002D6C4C /* Tiles */,
@@ -306,6 +293,15 @@
 				B0ED9C4615B0BFB1003C29D1 /* DDHidUsageTables.h */,
 			);
 			path = libdhid;
+			sourceTree = "<group>";
+		};
+		B0FDADC416389C11004DECE1 /* AI/Pathfinding */ = {
+			isa = PBXGroup;
+			children = (
+				B0613D53158FA9390068325C /* AStar.c */,
+				B0613D54158FA9390068325C /* AStar.h */,
+			);
+			name = AI/Pathfinding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
