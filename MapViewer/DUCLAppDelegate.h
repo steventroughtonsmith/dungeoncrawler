@@ -1,8 +1,8 @@
 //
 //  DUCLAppDelegate.h
-//  DungeonCrawler
+//  MapViewer
 //
-//  Created by Steven Troughton-Smith on 18/06/2012.
+//  Created by Steven Troughton-Smith on 12/07/2012.
 //  Copyright (c) 2012 High Caffeine Content. All rights reserved.
 //
 
@@ -10,6 +10,6 @@
 
 @interface DUCLAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (weak) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSWindow *window;
 
 @end

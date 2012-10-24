@@ -7,46 +7,243 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00A071515AEB2BA00C19D7E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00A071415AEB2BA00C19D7E /* GLKit.framework */; };
+		B00A071915AEB33200C19D7E /* DUCLGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00A071815AEB33200C19D7E /* DUCLGLViewController.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B00A071C15AEB90400C19D7E /* NS2DArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B00A071B15AEB90400C19D7E /* NS2DArray.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B00A072315AEC41E00C19D7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E115E0158F9DC700E63D79 /* Cocoa.framework */; };
+		B00A072915AEC41E00C19D7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B00A072715AEC41E00C19D7E /* InfoPlist.strings */; };
+		B00A072B15AEC41E00C19D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B00A072A15AEC41E00C19D7E /* main.m */; };
+		B00A072F15AEC41E00C19D7E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B00A072D15AEC41E00C19D7E /* Credits.rtf */; };
+		B00A073215AEC41E00C19D7E /* DUCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B00A073115AEC41E00C19D7E /* DUCLAppDelegate.m */; };
+		B00A073515AEC41E00C19D7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00A073315AEC41E00C19D7E /* MainMenu.xib */; };
+		B00A073B15AEC46000C19D7E /* DUCLMapRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00A073A15AEC46000C19D7E /* DUCLMapRenderView.m */; };
+		B00A073C15AEC49900C19D7E /* OBLevelGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */; };
+		B00A074515AEE32600C19D7E /* hq2x.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A073F15AEE32600C19D7E /* hq2x.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B00A074615AEE32600C19D7E /* hq3x.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A074015AEE32600C19D7E /* hq3x.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B00A074715AEE32600C19D7E /* hq4x.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A074115AEE32600C19D7E /* hq4x.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B00A074915AEE32600C19D7E /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A074415AEE32600C19D7E /* init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B00A074A15AEE3B200C19D7E /* hqx.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A074215AEE32600C19D7E /* hqx.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B023AA2E15B69D3D00A9A4D9 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B04269F915B5529C00C38F0C /* SDLMain.m */; };
+		B0255008159291B300A97F41 /* ob-mobs.png in Resources */ = {isa = PBXBuildFile; fileRef = B0255007159291B300A97F41 /* ob-mobs.png */; };
+		B025500B159292E000A97F41 /* ob-tilemap.png in Resources */ = {isa = PBXBuildFile; fileRef = B025500A159292E000A97F41 /* ob-tilemap.png */; };
+		B04269F615B5528500C38F0C /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04269F515B5528500C38F0C /* SDL.framework */; };
+		B046D3C9159555B800F67F35 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B046D3C8159555B800F67F35 /* QuartzCore.framework */; };
+		B046D3D01595834300F67F35 /* charactersprites.png in Resources */ = {isa = PBXBuildFile; fileRef = B046D3CF1595834300F67F35 /* charactersprites.png */; };
+		B058FB941592E0B1002D6C4C /* DUCLMob.m in Sources */ = {isa = PBXBuildFile; fileRef = B058FB931592E0B0002D6C4C /* DUCLMob.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B058FB991592E225002D6C4C /* DUCLPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B058FB981592E225002D6C4C /* DUCLPlayer.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B058FB9C1592E22E002D6C4C /* DUCLZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = B058FB9B1592E22E002D6C4C /* DUCLZombie.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B058FB9F1592E45A002D6C4C /* DUCLTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B058FB9E1592E45A002D6C4C /* DUCLTile.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B05D456E15E6B31C00C0768D /* DUCLGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E115FE158F9E0300E63D79 /* DUCLGameView.m */; };
+		B0613D4D158FA5670068325C /* dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = B0613D4C158FA5670068325C /* dirt.png */; };
+		B0613D55158FA93D0068325C /* AStar.c in Sources */ = {isa = PBXBuildFile; fileRef = B0613D53158FA9390068325C /* AStar.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B08C3F3A15B558950058FD1B /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08C3F3915B558950058FD1B /* SDL_image.framework */; };
+		B08CE6511593F90000E9AEBF /* OBLevelGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		B08DEF8315AF2AEB0082B72D /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DEF8215AF2AEB0082B72D /* IOSurface.framework */; };
+		B08DEF8415AF2AF80082B72D /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DEF8215AF2AEB0082B72D /* IOSurface.framework */; };
 		B0E115E1158F9DC700E63D79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E115E0158F9DC700E63D79 /* Cocoa.framework */; };
 		B0E115EB158F9DC700E63D79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0E115E9158F9DC700E63D79 /* InfoPlist.strings */; };
-		B0E115ED158F9DC700E63D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E115EC158F9DC700E63D79 /* main.m */; };
+		B0E115ED158F9DC700E63D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E115EC158F9DC700E63D79 /* main.m */; settings = {COMPILER_FLAGS = ""; }; };
 		B0E115F1158F9DC700E63D79 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B0E115EF158F9DC700E63D79 /* Credits.rtf */; };
-		B0E115F4158F9DC700E63D79 /* DUCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E115F3158F9DC700E63D79 /* DUCLAppDelegate.m */; };
+		B0E115F4158F9DC700E63D79 /* DUCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E115F3158F9DC700E63D79 /* DUCLAppDelegate.m */; settings = {COMPILER_FLAGS = ""; }; };
 		B0E115F7158F9DC800E63D79 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0E115F5158F9DC800E63D79 /* MainMenu.xib */; };
+		B0ED9C4715B0BFB1003C29D1 /* libddhid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0ED9C3915B0BFB1003C29D1 /* libddhid.a */; };
+		B0ED9C4F15B0C093003C29D1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0ED9C4E15B0C093003C29D1 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00A071415AEB2BA00C19D7E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B00A071715AEB33200C19D7E /* DUCLGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLGLViewController.h; sourceTree = "<group>"; };
+		B00A071815AEB33200C19D7E /* DUCLGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLGLViewController.m; sourceTree = "<group>"; };
+		B00A071A15AEB90400C19D7E /* NS2DArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NS2DArray.h; sourceTree = "<group>"; };
+		B00A071B15AEB90400C19D7E /* NS2DArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NS2DArray.m; sourceTree = "<group>"; };
+		B00A072115AEC41E00C19D7E /* MapViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00A072615AEC41E00C19D7E /* MapViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewer-Info.plist"; sourceTree = "<group>"; };
+		B00A072815AEC41E00C19D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B00A072A15AEC41E00C19D7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B00A072C15AEC41E00C19D7E /* MapViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapViewer-Prefix.pch"; sourceTree = "<group>"; };
+		B00A072E15AEC41E00C19D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B00A073015AEC41E00C19D7E /* DUCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUCLAppDelegate.h; sourceTree = "<group>"; };
+		B00A073115AEC41E00C19D7E /* DUCLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUCLAppDelegate.m; sourceTree = "<group>"; };
+		B00A073415AEC41E00C19D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B00A073915AEC46000C19D7E /* DUCLMapRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLMapRenderView.h; sourceTree = "<group>"; };
+		B00A073A15AEC46000C19D7E /* DUCLMapRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLMapRenderView.m; sourceTree = "<group>"; };
+		B00A073E15AEE32600C19D7E /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		B00A073F15AEE32600C19D7E /* hq2x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hq2x.c; sourceTree = "<group>"; };
+		B00A074015AEE32600C19D7E /* hq3x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hq3x.c; sourceTree = "<group>"; };
+		B00A074115AEE32600C19D7E /* hq4x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hq4x.c; sourceTree = "<group>"; };
+		B00A074215AEE32600C19D7E /* hqx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hqx.c; sourceTree = "<group>"; };
+		B00A074315AEE32600C19D7E /* hqx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hqx.h; sourceTree = "<group>"; };
+		B00A074415AEE32600C19D7E /* init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = init.c; sourceTree = "<group>"; };
+		B0255007159291B300A97F41 /* ob-mobs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ob-mobs.png"; sourceTree = "<group>"; };
+		B025500A159292E000A97F41 /* ob-tilemap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ob-tilemap.png"; sourceTree = "<group>"; };
+		B04269F515B5528500C38F0C /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+		B04269F815B5529C00C38F0C /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		B04269F915B5529C00C38F0C /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		B046D3C8159555B800F67F35 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B046D3CF1595834300F67F35 /* charactersprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charactersprites.png; sourceTree = "<group>"; };
+		B058FB921592E0B0002D6C4C /* DUCLMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLMob.h; sourceTree = "<group>"; };
+		B058FB931592E0B0002D6C4C /* DUCLMob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLMob.m; sourceTree = "<group>"; };
+		B058FB971592E225002D6C4C /* DUCLPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLPlayer.h; sourceTree = "<group>"; };
+		B058FB981592E225002D6C4C /* DUCLPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLPlayer.m; sourceTree = "<group>"; };
+		B058FB9A1592E22E002D6C4C /* DUCLZombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLZombie.h; sourceTree = "<group>"; };
+		B058FB9B1592E22E002D6C4C /* DUCLZombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLZombie.m; sourceTree = "<group>"; };
+		B058FB9D1592E45A002D6C4C /* DUCLTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLTile.h; sourceTree = "<group>"; };
+		B058FB9E1592E45A002D6C4C /* DUCLTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLTile.m; sourceTree = "<group>"; };
+		B0613D4C158FA5670068325C /* dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt.png; sourceTree = "<group>"; };
+		B0613D53158FA9390068325C /* AStar.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AStar.c; sourceTree = "<group>"; };
+		B0613D54158FA9390068325C /* AStar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AStar.h; sourceTree = "<group>"; };
+		B08C3F3915B558950058FD1B /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
+		B08C3F4C15B572FC0058FD1B /* DUCLGameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLGameEngine.h; sourceTree = "<group>"; };
+		B08C3F4D15B572FC0058FD1B /* DUCLGameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLGameEngine.m; sourceTree = "<group>"; };
+		B08CE64F1593F90000E9AEBF /* OBLevelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBLevelGenerator.h; sourceTree = "<group>"; };
+		B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OBLevelGenerator.mm; sourceTree = "<group>"; };
+		B08DEF8215AF2AEB0082B72D /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
 		B0E115DC158F9DC700E63D79 /* DungeonCrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonCrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E115E0158F9DC700E63D79 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B0E115E3158F9DC700E63D79 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B0E115E4158F9DC700E63D79 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B0E115E5158F9DC700E63D79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B0E115E8158F9DC700E63D79 /* DungeonCrawler-Info.plist */ = {isa = PBXFileReference; path = "DungeonCrawler-Info.plist"; sourceTree = "<group>"; };
+		B0E115E8158F9DC700E63D79 /* DungeonCrawler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DungeonCrawler-Info.plist"; sourceTree = "<group>"; };
 		B0E115EA158F9DC700E63D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0E115EC158F9DC700E63D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0E115EE158F9DC700E63D79 /* DungeonCrawler-Prefix.pch */ = {isa = PBXFileReference; path = "DungeonCrawler-Prefix.pch"; sourceTree = "<group>"; };
+		B0E115EE158F9DC700E63D79 /* DungeonCrawler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DungeonCrawler-Prefix.pch"; sourceTree = "<group>"; };
 		B0E115F0158F9DC700E63D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		B0E115F2158F9DC700E63D79 /* DUCLAppDelegate.h */ = {isa = PBXFileReference; path = DUCLAppDelegate.h; sourceTree = "<group>"; };
+		B0E115F2158F9DC700E63D79 /* DUCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUCLAppDelegate.h; sourceTree = "<group>"; };
 		B0E115F3158F9DC700E63D79 /* DUCLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUCLAppDelegate.m; sourceTree = "<group>"; };
 		B0E115F6158F9DC800E63D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B0E115FD158F9E0300E63D79 /* DUCLGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLGameView.h; sourceTree = "<group>"; };
+		B0E115FE158F9E0300E63D79 /* DUCLGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLGameView.m; sourceTree = "<group>"; };
+		B0ED9C3915B0BFB1003C29D1 /* libddhid.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libddhid.a; sourceTree = "<group>"; };
+		B0ED9C3B15B0BFB1003C29D1 /* DDHidAppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidAppleRemote.h; sourceTree = "<group>"; };
+		B0ED9C3C15B0BFB1003C29D1 /* DDHidDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidDevice.h; sourceTree = "<group>"; };
+		B0ED9C3D15B0BFB1003C29D1 /* DDHidElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidElement.h; sourceTree = "<group>"; };
+		B0ED9C3E15B0BFB1003C29D1 /* DDHidEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidEvent.h; sourceTree = "<group>"; };
+		B0ED9C3F15B0BFB1003C29D1 /* DDHidJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidJoystick.h; sourceTree = "<group>"; };
+		B0ED9C4015B0BFB1003C29D1 /* DDHidKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidKeyboard.h; sourceTree = "<group>"; };
+		B0ED9C4115B0BFB1003C29D1 /* DDHidKeyboardBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidKeyboardBarcodeScanner.h; sourceTree = "<group>"; };
+		B0ED9C4215B0BFB1003C29D1 /* DDHidLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidLib.h; sourceTree = "<group>"; };
+		B0ED9C4315B0BFB1003C29D1 /* DDHidMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidMouse.h; sourceTree = "<group>"; };
+		B0ED9C4415B0BFB1003C29D1 /* DDHidQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidQueue.h; sourceTree = "<group>"; };
+		B0ED9C4515B0BFB1003C29D1 /* DDHidUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsage.h; sourceTree = "<group>"; };
+		B0ED9C4615B0BFB1003C29D1 /* DDHidUsageTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsageTables.h; sourceTree = "<group>"; };
+		B0ED9C4E15B0C093003C29D1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B00A071E15AEC41E00C19D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08DEF8315AF2AEB0082B72D /* IOSurface.framework in Frameworks */,
+				B00A072315AEC41E00C19D7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0E115D9158F9DC700E63D79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08C3F3A15B558950058FD1B /* SDL_image.framework in Frameworks */,
+				B04269F615B5528500C38F0C /* SDL.framework in Frameworks */,
+				B0ED9C4F15B0C093003C29D1 /* IOKit.framework in Frameworks */,
+				B08DEF8415AF2AF80082B72D /* IOSurface.framework in Frameworks */,
+				B00A071515AEB2BA00C19D7E /* GLKit.framework in Frameworks */,
+				B046D3C9159555B800F67F35 /* QuartzCore.framework in Frameworks */,
 				B0E115E1158F9DC700E63D79 /* Cocoa.framework in Frameworks */,
+				B0ED9C4715B0BFB1003C29D1 /* libddhid.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00A072415AEC41E00C19D7E /* MapViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B00A073015AEC41E00C19D7E /* DUCLAppDelegate.h */,
+				B00A073115AEC41E00C19D7E /* DUCLAppDelegate.m */,
+				B00A073315AEC41E00C19D7E /* MainMenu.xib */,
+				B00A073915AEC46000C19D7E /* DUCLMapRenderView.h */,
+				B00A073A15AEC46000C19D7E /* DUCLMapRenderView.m */,
+				B00A072515AEC41E00C19D7E /* Supporting Files */,
+			);
+			path = MapViewer;
+			sourceTree = "<group>";
+		};
+		B00A072515AEC41E00C19D7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B00A072615AEC41E00C19D7E /* MapViewer-Info.plist */,
+				B00A072715AEC41E00C19D7E /* InfoPlist.strings */,
+				B00A072A15AEC41E00C19D7E /* main.m */,
+				B00A072C15AEC41E00C19D7E /* MapViewer-Prefix.pch */,
+				B00A072D15AEC41E00C19D7E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B00A073D15AEE31200C19D7E /* hqx */ = {
+			isa = PBXGroup;
+			children = (
+				B00A073E15AEE32600C19D7E /* common.h */,
+				B00A073F15AEE32600C19D7E /* hq2x.c */,
+				B00A074015AEE32600C19D7E /* hq3x.c */,
+				B00A074115AEE32600C19D7E /* hq4x.c */,
+				B00A074215AEE32600C19D7E /* hqx.c */,
+				B00A074315AEE32600C19D7E /* hqx.h */,
+				B00A074415AEE32600C19D7E /* init.c */,
+			);
+			name = hqx;
+			sourceTree = "<group>";
+		};
+		B058FB961592E213002D6C4C /* Mobs */ = {
+			isa = PBXGroup;
+			children = (
+				B058FB921592E0B0002D6C4C /* DUCLMob.h */,
+				B058FB931592E0B0002D6C4C /* DUCLMob.m */,
+				B058FB971592E225002D6C4C /* DUCLPlayer.h */,
+				B058FB981592E225002D6C4C /* DUCLPlayer.m */,
+				B058FB9A1592E22E002D6C4C /* DUCLZombie.h */,
+				B058FB9B1592E22E002D6C4C /* DUCLZombie.m */,
+			);
+			name = Mobs;
+			sourceTree = "<group>";
+		};
+		B058FBA01592E45F002D6C4C /* Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				B058FB9D1592E45A002D6C4C /* DUCLTile.h */,
+				B058FB9E1592E45A002D6C4C /* DUCLTile.m */,
+			);
+			name = Tiles;
+			sourceTree = "<group>";
+		};
+		B0613D4B158FA5670068325C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B046D3CF1595834300F67F35 /* charactersprites.png */,
+				B025500A159292E000A97F41 /* ob-tilemap.png */,
+				B0255007159291B300A97F41 /* ob-mobs.png */,
+				B0613D4C158FA5670068325C /* dirt.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		B0E115D1158F9DC700E63D79 = {
 			isa = PBXGroup;
 			children = (
+				B08C3F3915B558950058FD1B /* SDL_image.framework */,
+				B04269F515B5528500C38F0C /* SDL.framework */,
+				B0ED9C4E15B0C093003C29D1 /* IOKit.framework */,
+				B0ED9C3915B0BFB1003C29D1 /* libddhid.a */,
+				B0ED9C3A15B0BFB1003C29D1 /* libdhid */,
+				B08DEF8215AF2AEB0082B72D /* IOSurface.framework */,
+				B00A071715AEB33200C19D7E /* DUCLGLViewController.h */,
+				B00A071815AEB33200C19D7E /* DUCLGLViewController.m */,
+				B00A071415AEB2BA00C19D7E /* GLKit.framework */,
+				B046D3C8159555B800F67F35 /* QuartzCore.framework */,
 				B0E115E6158F9DC700E63D79 /* DungeonCrawler */,
+				B00A072415AEC41E00C19D7E /* MapViewer */,
 				B0E115DF158F9DC700E63D79 /* Frameworks */,
 				B0E115DD158F9DC700E63D79 /* Products */,
 			);
@@ -56,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				B0E115DC158F9DC700E63D79 /* DungeonCrawler.app */,
+				B00A072115AEC41E00C19D7E /* MapViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,8 +280,21 @@
 		B0E115E6158F9DC700E63D79 /* DungeonCrawler */ = {
 			isa = PBXGroup;
 			children = (
+				B00A073D15AEE31200C19D7E /* hqx */,
+				B0613D53158FA9390068325C /* AStar.c */,
+				B0613D54158FA9390068325C /* AStar.h */,
+				B08CE64F1593F90000E9AEBF /* OBLevelGenerator.h */,
+				B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */,
 				B0E115F2158F9DC700E63D79 /* DUCLAppDelegate.h */,
 				B0E115F3158F9DC700E63D79 /* DUCLAppDelegate.m */,
+				B0E115FD158F9E0300E63D79 /* DUCLGameView.h */,
+				B0E115FE158F9E0300E63D79 /* DUCLGameView.m */,
+				B08C3F4C15B572FC0058FD1B /* DUCLGameEngine.h */,
+				B08C3F4D15B572FC0058FD1B /* DUCLGameEngine.m */,
+				B00A071A15AEB90400C19D7E /* NS2DArray.h */,
+				B00A071B15AEB90400C19D7E /* NS2DArray.m */,
+				B058FBA01592E45F002D6C4C /* Tiles */,
+				B058FB961592E213002D6C4C /* Mobs */,
 				B0E115F5158F9DC800E63D79 /* MainMenu.xib */,
 				B0E115E7158F9DC700E63D79 /* Supporting Files */,
 			);
@@ -93,8 +304,11 @@
 		B0E115E7158F9DC700E63D79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B0613D4B158FA5670068325C /* Images */,
 				B0E115E8158F9DC700E63D79 /* DungeonCrawler-Info.plist */,
 				B0E115E9158F9DC700E63D79 /* InfoPlist.strings */,
+				B04269F815B5529C00C38F0C /* SDLMain.h */,
+				B04269F915B5529C00C38F0C /* SDLMain.m */,
 				B0E115EC158F9DC700E63D79 /* main.m */,
 				B0E115EE158F9DC700E63D79 /* DungeonCrawler-Prefix.pch */,
 				B0E115EF158F9DC700E63D79 /* Credits.rtf */,
@@ -102,9 +316,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B0ED9C3A15B0BFB1003C29D1 /* libdhid */ = {
+			isa = PBXGroup;
+			children = (
+				B0ED9C3B15B0BFB1003C29D1 /* DDHidAppleRemote.h */,
+				B0ED9C3C15B0BFB1003C29D1 /* DDHidDevice.h */,
+				B0ED9C3D15B0BFB1003C29D1 /* DDHidElement.h */,
+				B0ED9C3E15B0BFB1003C29D1 /* DDHidEvent.h */,
+				B0ED9C3F15B0BFB1003C29D1 /* DDHidJoystick.h */,
+				B0ED9C4015B0BFB1003C29D1 /* DDHidKeyboard.h */,
+				B0ED9C4115B0BFB1003C29D1 /* DDHidKeyboardBarcodeScanner.h */,
+				B0ED9C4215B0BFB1003C29D1 /* DDHidLib.h */,
+				B0ED9C4315B0BFB1003C29D1 /* DDHidMouse.h */,
+				B0ED9C4415B0BFB1003C29D1 /* DDHidQueue.h */,
+				B0ED9C4515B0BFB1003C29D1 /* DDHidUsage.h */,
+				B0ED9C4615B0BFB1003C29D1 /* DDHidUsageTables.h */,
+			);
+			path = libdhid;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B00A072015AEC41E00C19D7E /* MapViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00A073615AEC41E00C19D7E /* Build configuration list for PBXNativeTarget "MapViewer" */;
+			buildPhases = (
+				B00A071D15AEC41E00C19D7E /* Sources */,
+				B00A071E15AEC41E00C19D7E /* Frameworks */,
+				B00A071F15AEC41E00C19D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapViewer;
+			productName = MapViewer;
+			productReference = B00A072115AEC41E00C19D7E /* MapViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B0E115DB158F9DC700E63D79 /* DungeonCrawler */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0E115FA158F9DC800E63D79 /* Build configuration list for PBXNativeTarget "DungeonCrawler" */;
@@ -145,11 +395,22 @@
 			projectRoot = "";
 			targets = (
 				B0E115DB158F9DC700E63D79 /* DungeonCrawler */,
+				B00A072015AEC41E00C19D7E /* MapViewer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B00A071F15AEC41E00C19D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00A072915AEC41E00C19D7E /* InfoPlist.strings in Resources */,
+				B00A072F15AEC41E00C19D7E /* Credits.rtf in Resources */,
+				B00A073515AEC41E00C19D7E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0E115DA158F9DC700E63D79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,24 +418,78 @@
 				B0E115EB158F9DC700E63D79 /* InfoPlist.strings in Resources */,
 				B0E115F1158F9DC700E63D79 /* Credits.rtf in Resources */,
 				B0E115F7158F9DC800E63D79 /* MainMenu.xib in Resources */,
+				B0613D4D158FA5670068325C /* dirt.png in Resources */,
+				B0255008159291B300A97F41 /* ob-mobs.png in Resources */,
+				B025500B159292E000A97F41 /* ob-tilemap.png in Resources */,
+				B046D3D01595834300F67F35 /* charactersprites.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B00A071D15AEC41E00C19D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00A072B15AEC41E00C19D7E /* main.m in Sources */,
+				B00A073215AEC41E00C19D7E /* DUCLAppDelegate.m in Sources */,
+				B00A073B15AEC46000C19D7E /* DUCLMapRenderView.m in Sources */,
+				B00A073C15AEC49900C19D7E /* OBLevelGenerator.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0E115D8158F9DC700E63D79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B0E115ED158F9DC700E63D79 /* main.m in Sources */,
 				B0E115F4158F9DC700E63D79 /* DUCLAppDelegate.m in Sources */,
+				B0613D55158FA93D0068325C /* AStar.c in Sources */,
+				B058FB941592E0B1002D6C4C /* DUCLMob.m in Sources */,
+				B058FB991592E225002D6C4C /* DUCLPlayer.m in Sources */,
+				B058FB9C1592E22E002D6C4C /* DUCLZombie.m in Sources */,
+				B058FB9F1592E45A002D6C4C /* DUCLTile.m in Sources */,
+				B08CE6511593F90000E9AEBF /* OBLevelGenerator.mm in Sources */,
+				B00A071915AEB33200C19D7E /* DUCLGLViewController.m in Sources */,
+				B00A071C15AEB90400C19D7E /* NS2DArray.m in Sources */,
+				B00A074515AEE32600C19D7E /* hq2x.c in Sources */,
+				B00A074615AEE32600C19D7E /* hq3x.c in Sources */,
+				B00A074715AEE32600C19D7E /* hq4x.c in Sources */,
+				B00A074915AEE32600C19D7E /* init.c in Sources */,
+				B00A074A15AEE3B200C19D7E /* hqx.c in Sources */,
+				B023AA2E15B69D3D00A9A4D9 /* SDLMain.m in Sources */,
+				B05D456E15E6B31C00C0768D /* DUCLGameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B00A072715AEC41E00C19D7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00A072815AEC41E00C19D7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B00A072D15AEC41E00C19D7E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00A072E15AEC41E00C19D7E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B00A073315AEC41E00C19D7E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00A073415AEC41E00C19D7E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		B0E115E9158F9DC700E63D79 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -202,6 +517,31 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B00A073715AEC41E00C19D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewer/MapViewer-Prefix.pch";
+				INFOPLIST_FILE = "MapViewer/MapViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B00A073815AEC41E00C19D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewer/MapViewer-Prefix.pch";
+				INFOPLIST_FILE = "MapViewer/MapViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		B0E115F8158F9DC800E63D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -256,9 +596,24 @@
 		B0E115FB158F9DC800E63D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DungeonCrawler/DungeonCrawler-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/SDL.framework/**",
+					/Library/Frameworks/SDL_image.framework,
+				);
 				INFOPLIST_FILE = "DungeonCrawler/DungeonCrawler-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,9 +622,24 @@
 		B0E115FC158F9DC800E63D79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DungeonCrawler/DungeonCrawler-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/SDL.framework/**",
+					/Library/Frameworks/SDL_image.framework,
+				);
 				INFOPLIST_FILE = "DungeonCrawler/DungeonCrawler-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,6 +648,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B00A073615AEC41E00C19D7E /* Build configuration list for PBXNativeTarget "MapViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00A073715AEC41E00C19D7E /* Debug */,
+				B00A073815AEC41E00C19D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B0E115D6158F9DC700E63D79 /* Build configuration list for PBXProject "DungeonCrawler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -294,6 +673,7 @@
 				B0E115FC158F9DC800E63D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

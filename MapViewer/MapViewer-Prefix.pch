@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'MapViewer' target in the 'MapViewer' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
+
+#define MAP_WIDTH 512
+#define MAP_HEIGHT 512
+
+#define TILE_SIZE 16
