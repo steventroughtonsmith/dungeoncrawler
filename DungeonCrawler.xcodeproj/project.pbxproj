@@ -18,8 +18,6 @@
 		B00A073515AEC41E00C19D7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00A073315AEC41E00C19D7E /* MainMenu.xib */; };
 		B00A073B15AEC46000C19D7E /* DUCLMapRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00A073A15AEC46000C19D7E /* DUCLMapRenderView.m */; };
 		B00A073C15AEC49900C19D7E /* OBLevelGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */; };
-		B023AA2E15B69D3D00A9A4D9 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B04269F915B5529C00C38F0C /* SDLMain.m */; };
-		B0255008159291B300A97F41 /* ob-mobs.png in Resources */ = {isa = PBXBuildFile; fileRef = B0255007159291B300A97F41 /* ob-mobs.png */; };
 		B025500B159292E000A97F41 /* ob-tilemap.png in Resources */ = {isa = PBXBuildFile; fileRef = B025500A159292E000A97F41 /* ob-tilemap.png */; };
 		B046D3C9159555B800F67F35 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B046D3C8159555B800F67F35 /* QuartzCore.framework */; };
 		B046D3D01595834300F67F35 /* charactersprites.png in Resources */ = {isa = PBXBuildFile; fileRef = B046D3CF1595834300F67F35 /* charactersprites.png */; };
@@ -28,7 +26,6 @@
 		B058FB9C1592E22E002D6C4C /* DUCLZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = B058FB9B1592E22E002D6C4C /* DUCLZombie.m */; settings = {COMPILER_FLAGS = ""; }; };
 		B058FB9F1592E45A002D6C4C /* DUCLTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B058FB9E1592E45A002D6C4C /* DUCLTile.m */; settings = {COMPILER_FLAGS = ""; }; };
 		B05D456E15E6B31C00C0768D /* DUCLGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E115FE158F9E0300E63D79 /* DUCLGameView.m */; };
-		B0613D4D158FA5670068325C /* dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = B0613D4C158FA5670068325C /* dirt.png */; };
 		B0613D55158FA93D0068325C /* AStar.c in Sources */ = {isa = PBXBuildFile; fileRef = B0613D53158FA9390068325C /* AStar.c */; settings = {COMPILER_FLAGS = ""; }; };
 		B08CE6511593F90000E9AEBF /* OBLevelGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */; settings = {COMPILER_FLAGS = ""; }; };
 		B08DEF8315AF2AEB0082B72D /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DEF8215AF2AEB0082B72D /* IOSurface.framework */; };
@@ -60,10 +57,7 @@
 		B00A073415AEC41E00C19D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B00A073915AEC46000C19D7E /* DUCLMapRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLMapRenderView.h; sourceTree = "<group>"; };
 		B00A073A15AEC46000C19D7E /* DUCLMapRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLMapRenderView.m; sourceTree = "<group>"; };
-		B0255007159291B300A97F41 /* ob-mobs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ob-mobs.png"; sourceTree = "<group>"; };
 		B025500A159292E000A97F41 /* ob-tilemap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ob-tilemap.png"; sourceTree = "<group>"; };
-		B04269F815B5529C00C38F0C /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
-		B04269F915B5529C00C38F0C /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
 		B046D3C8159555B800F67F35 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B046D3CF1595834300F67F35 /* charactersprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charactersprites.png; sourceTree = "<group>"; };
 		B058FB921592E0B0002D6C4C /* DUCLMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLMob.h; sourceTree = "<group>"; };
@@ -74,7 +68,6 @@
 		B058FB9B1592E22E002D6C4C /* DUCLZombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLZombie.m; sourceTree = "<group>"; };
 		B058FB9D1592E45A002D6C4C /* DUCLTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLTile.h; sourceTree = "<group>"; };
 		B058FB9E1592E45A002D6C4C /* DUCLTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLTile.m; sourceTree = "<group>"; };
-		B0613D4C158FA5670068325C /* dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt.png; sourceTree = "<group>"; };
 		B0613D53158FA9390068325C /* AStar.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AStar.c; sourceTree = "<group>"; };
 		B0613D54158FA9390068325C /* AStar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AStar.h; sourceTree = "<group>"; };
 		B08CE64F1593F90000E9AEBF /* OBLevelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBLevelGenerator.h; sourceTree = "<group>"; };
@@ -189,8 +182,6 @@
 			children = (
 				B046D3CF1595834300F67F35 /* charactersprites.png */,
 				B025500A159292E000A97F41 /* ob-tilemap.png */,
-				B0255007159291B300A97F41 /* ob-mobs.png */,
-				B0613D4C158FA5670068325C /* dirt.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -267,8 +258,6 @@
 				B0613D4B158FA5670068325C /* Images */,
 				B0E115E8158F9DC700E63D79 /* DungeonCrawler-Info.plist */,
 				B0E115E9158F9DC700E63D79 /* InfoPlist.strings */,
-				B04269F815B5529C00C38F0C /* SDLMain.h */,
-				B04269F915B5529C00C38F0C /* SDLMain.m */,
 				B0E115EC158F9DC700E63D79 /* main.m */,
 				B0E115EE158F9DC700E63D79 /* DungeonCrawler-Prefix.pch */,
 				B0E115EF158F9DC700E63D79 /* Credits.rtf */,
@@ -387,8 +376,6 @@
 				B0E115EB158F9DC700E63D79 /* InfoPlist.strings in Resources */,
 				B0E115F1158F9DC700E63D79 /* Credits.rtf in Resources */,
 				B0E115F7158F9DC800E63D79 /* MainMenu.xib in Resources */,
-				B0613D4D158FA5670068325C /* dirt.png in Resources */,
-				B0255008159291B300A97F41 /* ob-mobs.png in Resources */,
 				B025500B159292E000A97F41 /* ob-tilemap.png in Resources */,
 				B046D3D01595834300F67F35 /* charactersprites.png in Resources */,
 			);
@@ -422,7 +409,6 @@
 				B08CE6511593F90000E9AEBF /* OBLevelGenerator.mm in Sources */,
 				B00A071915AEB33200C19D7E /* DUCLGLViewController.m in Sources */,
 				B00A071C15AEB90400C19D7E /* NS2DArray.m in Sources */,
-				B023AA2E15B69D3D00A9A4D9 /* SDLMain.m in Sources */,
 				B05D456E15E6B31C00C0768D /* DUCLGameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
