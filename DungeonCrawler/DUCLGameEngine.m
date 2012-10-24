@@ -19,7 +19,6 @@
 
 #import "NS2DArray.h"
 
-#import "hqx.h"
 
 #import "DDHidLib.h"
 

@@ -18,11 +18,6 @@
 		B00A073515AEC41E00C19D7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00A073315AEC41E00C19D7E /* MainMenu.xib */; };
 		B00A073B15AEC46000C19D7E /* DUCLMapRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00A073A15AEC46000C19D7E /* DUCLMapRenderView.m */; };
 		B00A073C15AEC49900C19D7E /* OBLevelGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = B08CE6501593F90000E9AEBF /* OBLevelGenerator.mm */; };
-		B00A074515AEE32600C19D7E /* hq2x.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A073F15AEE32600C19D7E /* hq2x.c */; settings = {COMPILER_FLAGS = ""; }; };
-		B00A074615AEE32600C19D7E /* hq3x.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A074015AEE32600C19D7E /* hq3x.c */; settings = {COMPILER_FLAGS = ""; }; };
-		B00A074715AEE32600C19D7E /* hq4x.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A074115AEE32600C19D7E /* hq4x.c */; settings = {COMPILER_FLAGS = ""; }; };
-		B00A074915AEE32600C19D7E /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A074415AEE32600C19D7E /* init.c */; settings = {COMPILER_FLAGS = ""; }; };
-		B00A074A15AEE3B200C19D7E /* hqx.c in Sources */ = {isa = PBXBuildFile; fileRef = B00A074215AEE32600C19D7E /* hqx.c */; settings = {COMPILER_FLAGS = ""; }; };
 		B023AA2E15B69D3D00A9A4D9 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B04269F915B5529C00C38F0C /* SDLMain.m */; };
 		B0255008159291B300A97F41 /* ob-mobs.png in Resources */ = {isa = PBXBuildFile; fileRef = B0255007159291B300A97F41 /* ob-mobs.png */; };
 		B025500B159292E000A97F41 /* ob-tilemap.png in Resources */ = {isa = PBXBuildFile; fileRef = B025500A159292E000A97F41 /* ob-tilemap.png */; };
@@ -67,13 +62,6 @@
 		B00A073415AEC41E00C19D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B00A073915AEC46000C19D7E /* DUCLMapRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUCLMapRenderView.h; sourceTree = "<group>"; };
 		B00A073A15AEC46000C19D7E /* DUCLMapRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUCLMapRenderView.m; sourceTree = "<group>"; };
-		B00A073E15AEE32600C19D7E /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		B00A073F15AEE32600C19D7E /* hq2x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hq2x.c; sourceTree = "<group>"; };
-		B00A074015AEE32600C19D7E /* hq3x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hq3x.c; sourceTree = "<group>"; };
-		B00A074115AEE32600C19D7E /* hq4x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hq4x.c; sourceTree = "<group>"; };
-		B00A074215AEE32600C19D7E /* hqx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hqx.c; sourceTree = "<group>"; };
-		B00A074315AEE32600C19D7E /* hqx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hqx.h; sourceTree = "<group>"; };
-		B00A074415AEE32600C19D7E /* init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = init.c; sourceTree = "<group>"; };
 		B0255007159291B300A97F41 /* ob-mobs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ob-mobs.png"; sourceTree = "<group>"; };
 		B025500A159292E000A97F41 /* ob-tilemap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ob-tilemap.png"; sourceTree = "<group>"; };
 		B04269F515B5528500C38F0C /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
@@ -182,20 +170,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B00A073D15AEE31200C19D7E /* hqx */ = {
-			isa = PBXGroup;
-			children = (
-				B00A073E15AEE32600C19D7E /* common.h */,
-				B00A073F15AEE32600C19D7E /* hq2x.c */,
-				B00A074015AEE32600C19D7E /* hq3x.c */,
-				B00A074115AEE32600C19D7E /* hq4x.c */,
-				B00A074215AEE32600C19D7E /* hqx.c */,
-				B00A074315AEE32600C19D7E /* hqx.h */,
-				B00A074415AEE32600C19D7E /* init.c */,
-			);
-			name = hqx;
-			sourceTree = "<group>";
-		};
 		B058FB961592E213002D6C4C /* Mobs */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,7 +254,6 @@
 		B0E115E6158F9DC700E63D79 /* DungeonCrawler */ = {
 			isa = PBXGroup;
 			children = (
-				B00A073D15AEE31200C19D7E /* hqx */,
 				B0613D53158FA9390068325C /* AStar.c */,
 				B0613D54158FA9390068325C /* AStar.h */,
 				B08CE64F1593F90000E9AEBF /* OBLevelGenerator.h */,
@@ -453,11 +426,6 @@
 				B08CE6511593F90000E9AEBF /* OBLevelGenerator.mm in Sources */,
 				B00A071915AEB33200C19D7E /* DUCLGLViewController.m in Sources */,
 				B00A071C15AEB90400C19D7E /* NS2DArray.m in Sources */,
-				B00A074515AEE32600C19D7E /* hq2x.c in Sources */,
-				B00A074615AEE32600C19D7E /* hq3x.c in Sources */,
-				B00A074715AEE32600C19D7E /* hq4x.c in Sources */,
-				B00A074915AEE32600C19D7E /* init.c in Sources */,
-				B00A074A15AEE3B200C19D7E /* hqx.c in Sources */,
 				B023AA2E15B69D3D00A9A4D9 /* SDLMain.m in Sources */,
 				B05D456E15E6B31C00C0768D /* DUCLGameView.m in Sources */,
 			);
